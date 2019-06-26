@@ -1,5 +1,10 @@
 function convert (data) {
   // Your code here
+
+  //#1
+ // cara cepet:
+  return Object.entries(data)
+
 }
 
 // TEST CASES
