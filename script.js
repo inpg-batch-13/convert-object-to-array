@@ -1,5 +1,9 @@
 function convert (data) {
-  // Your code here
+  var result = Object.keys(data).map(function(key) {
+    return [(key), data[key]]
+  })
+
+  return result
 }
 
 // TEST CASES
